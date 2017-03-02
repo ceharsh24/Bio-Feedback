@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biofeedback.Controller.CalibrationController">
+    <stylesheets>
+        <URL value="@css/calibration.css" />
+    </stylesheets>
+   <children>
+      <Button id="close_btn" fx:id="close_btn" layoutX="545.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" styleClass="close_btn" />
+      <Button id="minimize_btn" fx:id="minimize_btn" layoutX="504.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" styleClass="minimize_btn" />
+      <Button fx:id="back_btn" layoutX="463.0" layoutY="14.0" mnemonicParsing="false" onAction="#gotoSettings" prefHeight="25.0" prefWidth="41.0" styleClass="back_btn" />
+      <Circle fx:id="outer" fill="#ebebeb00" layoutX="175.0" layoutY="200.0" radius="148.0" rotate="-90.0" strokeType="INSIDE" strokeWidth="60.0">
+         <stroke>
+            <LinearGradient endX="0.2761904761904762" endY="0.7523809523809525" startX="0.2238095238095238" startY="0.12857142857142853">
+               <stops>
+                  <Stop color="#01253c" />
+                  <Stop color="#01253c" offset="0.007662835249042145" />
+                  <Stop color="#ffffff00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke></Circle>
+      <Circle fx:id="outer2" fill="#ebebeb00" layoutX="175.0" layoutY="200.0" radius="112.0" rotate="104.8" strokeType="INSIDE" strokeWidth="50.0">
+         <stroke>
+            <LinearGradient endX="0.45238095238095233" endY="0.5523809523809523" startX="0.2571428571428571" startY="0.03333333333333333">
+               <stops>
+                  <Stop color="#0e5e94" />
+                  <Stop color="#ffffff00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Circle>
+      <Circle fx:id="outer3" fill="#ebebeb00" layoutX="175.0" layoutY="200.0" radius="79.0" rotate="-108.4" strokeType="INSIDE" strokeWidth="40.0">
+         <stroke>
+            <LinearGradient endX="0.5380952380952381" endY="0.34761904761904755" startX="0.2857142857142857" startY="0.12380952380952381">
+               <stops>
+                  <Stop color="#1d5479" />
+                  <Stop color="#ffffff00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Circle>
+      <Circle fx:id="outer4" fill="#ebebeb00" layoutX="175.0" layoutY="200.0" radius="45.0" rotate="73.3" strokeType="INSIDE" strokeWidth="40.0">
+         <stroke>
+            <LinearGradient endX="0.45238095238095233" endY="0.32380952380952377">
+               <stops>
+                  <Stop color="#007bcf" />
+                  <Stop color="#ffffff00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Circle>
+      <Label fx:id="port_identification_label" layoutX="381.0" layoutY="122.0" text="Port Identification" textFill="#62aada">
+         <font>
+            <Font name="Vani" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="22.25" radius="12.475" spread="0.52" width="29.65" />
+         </effect>
+      </Label>
+      <Label fx:id="start_calibration_label" layoutX="376.0" layoutY="220.0" text="Start Calibration" textFill="#62aada">
+         <effect>
+            <DropShadow height="22.25" radius="12.475" spread="0.52" width="29.65" />
+         </effect>
+         <font>
+            <Font name="Vani" size="20.0" />
+         </font>
+      </Label>
+      <ToggleButton fx:id="port_led" disable="true" ellipsisString="" layoutX="558.0" layoutY="131.0" mnemonicParsing="false" opacity="0.9" prefHeight="33.0" prefWidth="28.0" styleClass="led" />
+      <ToggleButton fx:id="start_led" disable="true" ellipsisString="" layoutX="558.0" layoutY="229.0" mnemonicParsing="false" opacity="0.88" prefHeight="33.0" prefWidth="28.0" styleClass="led" />
+   </children>
+</AnchorPane>

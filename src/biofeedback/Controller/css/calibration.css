@@ -1,0 +1,91 @@
+
+.mainFxmlClass {
+    -fx-background-image:url("../images/bg.jpg");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-padding: 5; 
+    -fx-background-color: transparent; 
+    -fx-border-width:5; 
+    -fx-border-color:linear-gradient(to top, black,derive(black, 50%))
+}
+.led{
+    -fx-background-image:url("../images/led_off.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.led:selected{
+    -fx-background-image:url("../images/led_on.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.back_btn
+{
+    -fx-background-image:url("../images/back.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.back_btn:hover
+{
+    -fx-background-image:url("../images/back_hover.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+.close_btn
+{
+    -fx-background-image:url("../images/close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.close_btn:hover
+{
+    -fx-background-image:url("../images/close_hover.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.minimize_btn
+{
+    -fx-background-image:url("../images/minimize.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.minimize_btn:hover
+{
+    -fx-background-image:url("../images/minimize_hover.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+
+.icon
+{
+     -fx-background-image:url("../images/icon.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+}
+.calliberation{
+    -fx-background-image: url("../images/calibration.gif");
+    -fx-background-size: 100%;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}

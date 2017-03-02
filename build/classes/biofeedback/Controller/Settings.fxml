@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biofeedback.Controller.SettingsController">
+    <stylesheets>
+        <URL value="@css/Settings.css" />
+    </stylesheets>
+   <children>
+      <Button id="start_btn" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="396.0" layoutY="119.0" maxWidth="299.0" mnemonicParsing="false" onAction="#gotoCalibration" prefHeight="180.0" prefWidth="190.0" styleClass="start_btn" />
+      <ToggleButton id="dnd_btn" fx:id="dnd_btn" layoutX="148.0" layoutY="319.0" minHeight="44.0" mnemonicParsing="false" prefHeight="71.0" prefWidth="164.0" styleClass="dnd_btn" />
+      <Label id="clockview" layoutX="133.0" layoutY="77.0" prefHeight="191.0" prefWidth="198.0" styleClass="clockview" />
+      <Arc fx:id="clockfill" blendMode="MULTIPLY" fill="DODGERBLUE" layoutX="233.0" layoutY="182.0" opacity="0.62" radiusX="66.0" radiusY="67.0" startAngle="180.0" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="clockfill1" blendMode="MULTIPLY" fill="DODGERBLUE" layoutX="233.0" layoutY="182.0" opacity="0.62" radiusX="66.0" radiusY="67.0" startAngle="90.0" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="clockfill2" blendMode="MULTIPLY" fill="DODGERBLUE" layoutX="233.0" layoutY="182.0" opacity="0.62" radiusX="66.0" radiusY="67.0" startAngle="-90.0" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="clockfill3" blendMode="MULTIPLY" fill="DODGERBLUE" layoutX="233.0" layoutY="182.0" opacity="0.62" radiusX="66.0" radiusY="67.0" strokeType="INSIDE" type="ROUND" />
+      <Label layoutX="64.0" layoutY="42.0" prefHeight="27.0" prefWidth="216.0" styleClass="subtitle" />
+      <Ellipse fill="WHITE" layoutX="232.0" layoutY="183.0" radiusX="31.0" radiusY="30.0" stroke="WHITE" strokeType="INSIDE" />
+      <Label fx:id="clocktime" alignment="CENTER" contentDisplay="CENTER" layoutX="202.0" layoutY="155.0" prefHeight="58.0" prefWidth="62.0" text="0 Sec" textFill="#007bcf">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle id="hourhand" fx:id="hourhand" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="67.0" layoutX="228.0" layoutY="115.0" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" width="5.0" />
+      <Label layoutX="28.0" layoutY="164.0" prefHeight="37.0" prefWidth="104.0" text="Popup Time" textFill="#4d4d4d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="336.0" prefHeight="37.0" prefWidth="104.0" text="DND Mode" textFill="#4d4d4d">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button id="clode_btn" fx:id="close_btn" layoutX="545.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" styleClass="close_btn" />
+      <Button id="minimize_btn" fx:id="minimize_btn" layoutX="504.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="41.0" styleClass="minimize_btn" />
+      <Label layoutX="71.0" layoutY="13.0" prefHeight="37.0" prefWidth="180.0" text="Bio-FeedBack+" textFill="#222222">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="19.0" prefHeight="46.0" prefWidth="41.0" styleClass="icon" />
+   </children>
+</AnchorPane>

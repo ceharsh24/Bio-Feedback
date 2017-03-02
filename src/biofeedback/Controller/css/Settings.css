@@ -1,0 +1,119 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-image:url("../images/bg.jpg");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-padding: 5; 
+    -fx-background-color: white; 
+    -fx-border-width:5; 
+    -fx-border-color:linear-gradient(to top, black,derive(black, 50%))
+}
+
+.start_btn
+{
+    -fx-background-image:url("../images/start2.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+  
+}
+.start_btn:hover
+{
+    -fx-background-image:url("../images/start1.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.dnd_btn
+{
+    -fx-background-image:url("../images/switch1.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+  
+  
+  
+}
+.dnd_btn:selected
+{
+    -fx-background-image:url("../images/switch2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    
+}
+
+.clockview
+{
+    -fx-background-image:url("../images/clock.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.close_btn
+{
+    -fx-background-image:url("../images/close.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.close_btn:hover
+{
+    -fx-background-image:url("../images/close_hover.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.minimize_btn
+{
+    -fx-background-image:url("../images/minimize.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.minimize_btn:hover
+{
+    -fx-background-image:url("../images/minimize_hover.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+
+.icon
+{
+     -fx-background-image:url("../images/icon.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+}
+
+
+.subtitle
+{
+     -fx-background-image:url("../images/subtitle.png");
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100%;
+}
+
